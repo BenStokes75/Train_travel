@@ -1,6 +1,5 @@
-
 body {
-    font-family: "Times New Roman", serif, "Arial", sans-serif;
+    font-family: "Open Sans", serif, "Arial", sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -14,20 +13,25 @@ header {
     padding: 5px 0;
 }
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
-    background-color : rgba(77, 47, 47, 0.441);
-    border-radius: 10px;
+    background-color : rgba(115, 83, 83, 0.441);
+    border-radius: 20px;
     margin-top: 20px;
 }
 h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 20px;
     text-align: center;
+    font-size: 30px;
+    color: white;
+    
 }
 h2 {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     color: black;
+    text-align: left;
 }
 
 p {
@@ -57,8 +61,15 @@ li {
 }
 
 footer {
-    background-color: transparent;
+
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color : rgba(115, 83, 83, 0.441);
+    border-radius: 20px;
+    margin-top: 20px;
+    
 }
