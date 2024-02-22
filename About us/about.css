@@ -49,7 +49,7 @@ li {
 
 .team-member img {
     width: 150px;
-    border-radius: 0%;
+    border-radius: 10%;
 }
 
 
@@ -58,30 +58,26 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
-    max-width: 1400px;
     margin: 0 auto;
     padding: 20px;
-    background-color : rgba(115, 83, 83, 0.441);
-    border-radius: 20px;
-    margin-top: 20px;
     
 }
 /* About page styles */
 .team-member {
-    padding: 50px;
+    padding: 70px;
     align-items : center;
     text-align: center;
     margin-bottom: 2rem;
   }
-  
+  /* about the team member about */
   .team-members {
     display: flex;
     justify-content: center;
-    align-items: center; /* Vertically center image and text */
+    align-items: center;
   }
-  
+  /* about the team member image */
   .social-links img {
-    width: 20px; /* Set desired size for social media links */
+    width: 30px;
     height: auto;
     margin: 0 .5rem; /* Adjust spacing as needed */
   }
