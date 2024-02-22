@@ -30,7 +30,7 @@ h1 {
 }
 h2 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     color: black;
     text-align: left;
 }
@@ -48,7 +48,7 @@ li {
 }
 
 .team-member img {
-    width: 150px;
+    width: 170px;
     border-radius: 10%;
 }
 
@@ -64,10 +64,10 @@ footer {
 }
 /* About page styles */
 .team-member {
-    padding: 70px;
+    padding: 50px;
     align-items : center;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 5px;
   }
   /* about the team member about */
   .team-members {
