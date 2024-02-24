@@ -21,7 +21,7 @@ function componentToHex(c) {
 // Function to generate a random gradient background with five colors
 function setRandomGradient() {
   var colors = [];
-  for (var i = 0; i < 5; i++) {
+  for (var i = 0; i < 4; i++) {
       colors.push(getRandomColor());
   }
   var gradientColors = colors.join(', ');
