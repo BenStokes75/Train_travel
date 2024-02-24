@@ -75,10 +75,15 @@ footer {
     justify-content: center;
     align-items: center;
   }
-  /* about the team member image */
-  .social-links img {
+  /* Define initial properties for social links images */
+.social-links img {
     width: 30px;
     height: auto;
     margin: 0 .5rem; /* Adjust spacing as needed */
-  }
+    transition: transform 0.3s ease; /* Add smooth transition */
+}
 
+/* Add animation when hovering over social links images */
+.social-links img:hover {
+    transform: scale(1.7); /* Scale up the image size */
+}
