@@ -1,50 +1,52 @@
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
 }
+
 header {
     background-color: transparent;
     color: #ffffff;
     text-align: center;
     padding: 5px 0;
 }
+
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
-    background-color : rgba(115, 83, 83, 0.441);
+    background-color: rgba(115, 83, 83, 0.441);
     border-radius: 20px;
     margin-top: 20px;
 }
+
 h1 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 20px;
     text-align: center;
     font-size: 30px;
     color: white;
-    
 }
+
 h2 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 20px;
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: left;
 }
 
-p {
-    margin-bottom: 20px;
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(4px);
+    transform: translateX(-50%);
 }
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-li {
-    margin-bottom: 10px;
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0%);
 }
 
 .team-member img {
@@ -54,33 +56,31 @@ li {
     margin: 0 .5rem;
     transition: transform 0.3s ease;
 }
-.team-member img:hover{
+
+.team-member img:hover {
     transform: scale(1.1);
 }
 
-
 footer {
-
     color: #fff;
     text-align: center;
     padding: 20px 0;
     margin: 0 auto;
     padding: 20px;
-    
 }
-/* About page styles */
+
 .team-member {
     padding: 50px;
-    align-items : center;
+    align-items: center;
     text-align: center;
     margin-bottom: 5px;
-  }
-  /* about the team member */
-  .team-members {
+}
+
+.team-members {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
 .social-links img {
     width: 30px;
@@ -89,7 +89,6 @@ footer {
     transition: transform 0.3s ease;
 }
 
-  /* animation in the social images */
 .social-links img:hover {
     transform: scale(1.5);
 }

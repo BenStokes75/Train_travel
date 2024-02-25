@@ -32,3 +32,18 @@ function setRandomGradient() {
 
 // Call the function to set a random gradient background when the page loads
 window.addEventListener('load', setRandomGradient);
+
+
+// fro cheaking the object in the viewframe or not
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+      if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+      } else {
+          entry.target.classList.remove('show');
+      }
+  });
+});
+
+const hiddenElements = document.querySelectorAll('.hidden');
+hiddenElements.forEach(el => observer.observe(el));
